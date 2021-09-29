@@ -8,6 +8,14 @@ SQL queries for deleting Orchestrator records more than 30 days old.
 
 **The contents of this repository are NOT OFFICIALLY SUPPORTED by UiPath. Anything you use is AT YOUR OWN DISCRETION.**
 
+## TODO
+
+* Actions.
+
+* Ledgers.
+
+* Test all queries in DEV environment and improve ordering.
+
 ## Owner
 
 [Michael A.](https://linkedin.com/in/magarenzo)
