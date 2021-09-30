@@ -1,6 +1,6 @@
 # Maintenance Considerations Queries
 
-SQL queries for deleting Orchestrator records more than 30 days old.
+SQL queries for deleting Orchestrator records older than 30 days.
 
 [Maintenance Considerations - Deleting Old Data Periodically](https://docs.uipath.com/installation-and-upgrade/docs/maintenance-considerations#deleting-old-data-periodically)
 
