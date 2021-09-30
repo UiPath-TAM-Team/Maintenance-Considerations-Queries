@@ -1,6 +1,6 @@
-select count(*) from QueueItems
 select count(*) from QueueItemEvents
 select count(*) from QueueItemComments
+select count(*) from QueueItems
 declare @NumberOfDaysToKeep int
 set @NumberOfDaysToKeep = 30
 begin transaction
@@ -27,6 +27,6 @@ where Exists (select 1 from #TempDeletedIds where IdToDelete = QueueItems.Id)
 -- drop temp table with list of IDs that we deleted
 drop table #TempDeletedIds
 commit transaction
-select count(*) from QueueItems
 select count(*) from QueueItemEvents
 select count(*) from QueueItemComments
+select count(*) from QueueItems
