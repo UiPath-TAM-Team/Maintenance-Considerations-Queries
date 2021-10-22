@@ -10,4 +10,4 @@ SQL queries for deleting Orchestrator records older than 30 days.
 
 ## Owner
 
-[Michael A.](https://linkedin.com/in/magarenzo)
+[Michael Agarenzo](https://linkedin.com/in/magarenzo), Technical Account Manager at UiPath
